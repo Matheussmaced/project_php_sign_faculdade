@@ -1,0 +1,37 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+h1.display-4 {
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+p.lead {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.header-container {
+  background-color:rgb(205, 230, 255);
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.header-link {
+  color: #007bff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: #0056b3;
+}
