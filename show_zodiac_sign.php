@@ -33,13 +33,9 @@ if ($data_nascimento) {
       <a href="index.php" class="btn btn-secondary mt-4">Voltar</a>
     </div>
   <?php else: ?>
-    <p class="text-danger">Signo não encontrado.</p>
+    <p class="text-danger text-center">Signo não encontrado.</p>
   <?php endif;
 } else {
-  echo "<p class='text-danger'>Data inválida.</p>";
+  echo "<p class='text-danger text-center'>Data inválida.</p>";
 }
 ?>
-
-</body>
-
-</html>
